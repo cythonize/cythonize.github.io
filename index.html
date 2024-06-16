@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light gray background */
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .bio {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Spacing between icons */
+            margin-top: 20px;
+        }
+
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 100px; /* Adjust width as needed */
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+            text-decoration: none;
+            color: #333;
+            font-size: 14px; /* Adjust icon text size */
+        }
+
+        .icon:hover {
+            transform: translateY(-5px); /* Lift up on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .icon .fab {
+            font-size: 24px; /* Adjust icon size */
+            margin-bottom: 5px; /* Space between icon and text */
+        }
+
+        .icon-text {
+            font-size: 14px; /* Adjust text size */
+            font-weight: bold;
+        }
+
+        .facebook {
+            border-color: #1877f2;
+        }
+
+        .github {
+            border-color: #333;
+        }
+
+        .instagram {
+            border-color: #e4405f;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exotic Hridoy</h1>
+        <div class="bio">
+            <p>Welcome! I am a passionate and dedicated programmer from Bangladesh, currently 17 years old.</p>
+            <p>With a strong interest in software development, I specialize in various programming languages and have a deep understanding of encryption techniques. My expertise lies in developing efficient and secure code, as well as deobfuscating complex encryption algorithms.</p>
+            <p>Feel free to connect with me on my social media platforms below, where I share insights, projects, and my latest endeavors in the tech world.</p>
+        </div>
+        <div class="wrapper">
+            <a href="https://facebook.com/deobfuscate" target="_blank" class="icon facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span class="icon-text">Facebook</span>
+            </a>
+            <a href="https://github.com/exotic-inx" target="_blank" class="icon github">
+                <i class="fab fa-github"></i>
+                <span class="icon-text">GitHub</span>
+            </a>
+            <a href="https://instagram.com/reverse_exec" target="_blank" class="icon instagram">
+                <i class="fab fa-instagram"></i>
+                <span class="icon-text">Instagram</span>
+            </a>
+        </div>
+        <div class="footer">
+            Copyright &copy; 2024 Klein. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
+
